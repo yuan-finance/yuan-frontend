@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>img-2</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3---选择朝代" transform="translate(-790.000000, -198.000000)">
+            <g id="编组-10备份" transform="translate(705.000000, 157.000000)">
+                <g id="img-2" transform="translate(85.000000, 41.000000)">
+                    <circle id="椭圆形" stroke="#8C9C9F" stroke-width="2" cx="50" cy="50" r="49"></circle>
+                    <text id="汉" font-family="FZBWKSJW--GB1-0, FZBeiWeiKaiShu-S19S" font-size="60" font-weight="normal" fill="#476065">
+                        <tspan x="20" y="72">汉</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

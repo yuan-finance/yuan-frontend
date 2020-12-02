@@ -1,0 +1,79 @@
+body {
+  /* background: #F0E7EA; */
+  margin: 0;
+  /* font-family: 'BiauKai', 'Nunito', sans-serif; */
+  /* font-family: 'yuanFont', 'Helvetica Neue' !important; */
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url(./assets/img/Page/bg-repeat.svg) repeat #E1E1E1;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* a:visited{
+  color: #476065;
+} */
+@font-face {
+  font-family: yuanFont;
+  src: url('./assets/font/fzbwksjw.ttf')
+}
+
+@font-face {
+  font-family: dinFont;
+  src: url('./assets/font/DIN.ttf')
+}
+
+.rotate {
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-duration: 1s;
+  -moz-transition-property: -moz-transform;
+  -moz-transition-duration: 1s;
+  -webkit-animation: rotate 1s linear infinite;
+  -moz-animation: rotate 1s linear infinite;
+  -o-animation: rotate 1s linear infinite;
+  animation: rotate 1s linear infinite;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg)
+  }
+
+  to {
+    -webkit-transform: rotate(360deg)
+  }
+}
+
+@-moz-keyframes rotate {
+  from {
+    -moz-transform: rotate(0deg)
+  }
+
+  to {
+    -moz-transform: rotate(359deg)
+  }
+}
+
+@-o-keyframes rotate {
+  from {
+    -o-transform: rotate(0deg)
+  }
+
+  to {
+    -o-transform: rotate(359deg)
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg)
+  }
+
+  to {
+    transform: rotate(359deg)
+  }
+}

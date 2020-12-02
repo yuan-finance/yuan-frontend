@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>btn-closebai-nor</title>
+    <g id="yuan-(-WEB+H5-)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="8---H5---EN---菜单" transform="translate(-670.000000, -34.000000)" fill="#D0E3E7">
+            <g id="btn-closebai-nor" transform="translate(670.000000, 34.000000)">
+                <path d="M26,8 C27.1045695,8 28,8.8954305 28,10 L28,24 L42,24 C43.1045695,24 44,24.8954305 44,26 C44,27.1045695 43.1045695,28 42,28 L27.999,28 L28,42 C28,43.1045695 27.1045695,44 26,44 C24.8954305,44 24,43.1045695 24,42 L23.999,28 L10,28 C8.8954305,28 8,27.1045695 8,26 C8,24.8954305 8.8954305,24 10,24 L24,24 L24,10 C24,8.8954305 24.8954305,8 26,8 Z" id="形状结合" transform="translate(26.000000, 26.000000) rotate(-315.000000) translate(-26.000000, -26.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

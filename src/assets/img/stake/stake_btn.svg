@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="208px" height="54px" viewBox="0 0 208 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>选择授权-bg</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4---选择朝代---秦" transform="translate(-879.000000, -491.000000)">
+            <g id="编组-12" transform="translate(563.000000, 237.000000)">
+                <g id="编组-10备份" transform="translate(285.000000, 0.000000)">
+                    <g id="选择授权-bg" transform="translate(32.000000, 255.000000)">
+                        <path d="M203,7 C200.791,7 199,5.209 199,3 L7,3 C7,5.209 5.209,7 3,7 L3,45 C5.209,45 7,46.791 7,49 L199,49 C199,46.791 200.791,45 203,45 L203,7 Z" id="Fill-1" fill="#476065"></path>
+                        <path d="M206,4 C203.791,4 202,2.209 202,0 L4,0 C4,2.209 2.209,4 0,4 L0,48 C2.209,48 4,49.791 4,52 L202,52 C202,49.791 203.791,48 206,48 L206,4 Z" id="Fill-1备份-2" stroke="#8C9C9F"></path>
+                        <g transform="translate(85.000000, 16.000000)"></g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

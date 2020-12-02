@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="356px" height="64px" viewBox="0 0 356 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>登出</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5---选择朝代---弹层" transform="translate(-782.000000, -632.000000)">
+            <g id="编组-2" transform="translate(783.000000, 633.000000)">
+                <path d="M351,7 C348.791,7 347,5.209 347,3 L7,3 C7,5.209 5.209,7 3,7 L3,55 C5.209,55 7,56.791 7,59 L347,59 C347,56.791 348.791,55 351,55 L351,7 Z" id="Fill-1" fill="#476065"></path>
+                <path d="M354,4 C351.791,4 350,2.209 350,0 L4,0 C4,2.209 2.209,4 0,4 L0,58 C2.209,58 4,59.791 4,62 L350,62 C350,59.791 351.791,58 354,58 L354,4 Z" id="Fill-1备份-2" stroke="#8C9C9F"></path>
+            </g>
+        </g>
+    </g>
+</svg>

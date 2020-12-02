@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="238px" height="34px" viewBox="0 0 238 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>border</title>
+    <g id="控件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-11" transform="translate(1.000000, 1.000000)" stroke="#8C9C9F">
+            <path d="M236,4 C233.791,4 232,2.209 232,0 L4,0 C4,2.209 2.209,4 0,4 L0,28 C2.209,28 4,29.791 4,32 L232,32 C232,29.791 233.791,28 236,28 L236,4 Z" id="border"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>btn-Sidebar-nor</title>
+    <g id="WEB+H5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1---H5---EN" transform="translate(-670.000000, -34.000000)" fill="#395156">
+            <g id="btn-Sidebar-nor" transform="translate(670.000000, 34.000000)">
+                <path d="M42,37 C43.1045695,37 44,37.8954305 44,39 C44,40.1045695 43.1045695,41 42,41 L10,41 C8.8954305,41 8,40.1045695 8,39 C8,37.8954305 8.8954305,37 10,37 L42,37 Z M42,24 C43.1045695,24 44,24.8954305 44,26 C44,27.1045695 43.1045695,28 42,28 L10,28 C8.8954305,28 8,27.1045695 8,26 C8,24.8954305 8.8954305,24 10,24 L42,24 Z M42,11 C43.1045695,11 44,11.8954305 44,13 C44,14.1045695 43.1045695,15 42,15 L10,15 C8.8954305,15 8,14.1045695 8,13 C8,11.8954305 8.8954305,11 10,11 L42,11 Z" id="btn_Sidebar_nor"></path>
+            </g>
+        </g>
+    </g>
+</svg>

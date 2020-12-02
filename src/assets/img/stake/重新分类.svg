@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="276px" height="54px" viewBox="0 0 276 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>重新分类</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2--Home---CN---无链接钱包状态" transform="translate(-487.000000, -669.000000)">
+            <g id="重新分类" transform="translate(488.000000, 670.000000)">
+                <path d="M271,7 C268.791,7 267,5.209 267,3 L7,3 C7,5.209 5.209,7 3,7 L3,45 C5.209,45 7,46.791 7,49 L267,49 C267,46.791 268.791,45 271,45 L271,7 Z" id="Fill-1" fill="#8C9C9F"></path>
+                <path d="M274,4 C271.791,4 270,2.209 270,0 L4,0 C4,2.209 2.209,4 0,4 L0,48 C2.209,48 4,49.791 4,52 L270,52 C270,49.791 271.791,48 274,48 L274,4 Z" id="Fill-1备份-2" stroke="#8C9C9F"></path>
+            </g>
+        </g>
+    </g>
+</svg>

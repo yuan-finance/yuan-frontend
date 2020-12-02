@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="38px" viewBox="0 0 160 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>btn-bg</title>
+    <g id="btn-bg" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-2">
+            <path d="M160,4 C157.791,4 156,2.209 156,0 L4,0 C4,2.209 2.209,4 0,4 L0,34 C2.209,34 4,35.791 4,38 L156,38 C156,35.791 157.791,34 160,34 L160,4 Z" id="Fill-1" fill="#729298"></path>
+            <path d="M157,7 C154.791,7 153,5.209 153,3 L7,3 C7,5.209 5.209,7 3,7 L3,31 C5.209,31 7,32.791 7,35 L153,35 C153,32.791 154.791,31 157,31 L157,7 Z" id="Fill-1备份-2" stroke="#476065"></path>
+        </g>
+    </g>
+</svg>
