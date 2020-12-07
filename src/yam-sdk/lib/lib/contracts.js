@@ -8,6 +8,7 @@ import YAMJson from '../clean_build/contracts/YAMDelegator.json';
 import YAMRebaserJson from '../clean_build/contracts/YAMRebaser.json';
 import YAMReservesJson from '../clean_build/contracts/YAMReserves.json';
 import YAMGovJson from '../clean_build/contracts/GovernorAlpha.json';
+import YAMGovJson_YIP003 from '../clean_build/contracts/GovernorAlpha_YIP003.json';
 import YAMTimelockJson from '../clean_build/contracts/Timelock.json';
 import WETHJson from './weth.json';
 import UNIFactJson from './unifact2.json';
@@ -84,7 +85,7 @@ export class Contracts {
     this.rebaser = new this.web3.eth.Contract(YAMRebaserJson.abi);
     this.reserves = new this.web3.eth.Contract(YAMReservesJson.abi);
     this.gov = new this.web3.eth.Contract(YAMGovJson.abi);
-    // this.gov2 = new this.web3.eth.Contract(YAMGovJson.abi);
+    this.gov003 = new this.web3.eth.Contract(YAMGovJson_YIP003.abi);
     this.timelock = new this.web3.eth.Contract(YAMTimelockJson.abi);
     this.weth = new this.web3.eth.Contract(WETHJson);
 
@@ -109,6 +110,7 @@ export class Contracts {
     this.rebaser.setProvider(provider);
     this.reserves.setProvider(provider);
     this.gov.setProvider(provider);
+    this.gov003.setProvider(provider);
     this.timelock.setProvider(provider);
 
     const contracts = [
@@ -116,6 +118,7 @@ export class Contracts {
       { contract: this.rebaser, json: YAMRebaserJson },
       { contract: this.reserves, json: YAMReservesJson },
       { contract: this.gov, json: YAMGovJson },
+      { contract: this.gov003, json: YAMGovJson_YIP003 },
       { contract: this.timelock, json: YAMTimelockJson },
 
       // (to be change)
@@ -181,6 +184,7 @@ export class Contracts {
     this.names[this.rebaser.options.address] = "Rebaser";
     this.names[this.reserves.options.address] = "Reserves";
     this.names[this.gov.options.address] = "Previous Governor";
+    this.names[this.gov003.options.address] = "Previous Governor";
     this.names[this.timelock.options.address] = "Timelock Governance";
     this.names[this.migrator.options.address] = "Migrator";
   }
