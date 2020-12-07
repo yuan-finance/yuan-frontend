@@ -387,7 +387,7 @@ export const getProposals = async (yam) => {
 
 
   // Get Proposals for YIP003
-  const v3Proposals = await yam.contracts.gov003.getPastEvents("ProposalCreated", {fromBlock: 11365200})
+  const v3Proposals = await yam.contracts.gov003.getPastEvents("ProposalCreated", {fromBlock: 11365000})
 
   for (let i = 0; i < v3Proposals.length; i++) {
     let id = v3Proposals[i]["returnValues"]["id"];

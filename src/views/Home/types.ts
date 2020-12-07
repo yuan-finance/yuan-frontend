@@ -4,5 +4,6 @@ export interface OverviewData {
   nextRebase?: number,
   nextRebable?: boolean,
   targetPrice?: number,
-  totalSupply?: string
+  totalSupply?: string,
+  scalingFactor?: string
 }

@@ -107,7 +107,7 @@ const Treasury: React.FC<TreasuryProps> = ({cur_language}) => {
               <StyledValue>
                 {oracleValue}
               </StyledValue>
-              <Label cur_language={cur_language} text={'CNY / USD'} size={16}/>
+              <Label cur_language={cur_language} text={'CNY_USD'} size={16}/>
             </StatInfo>
           </StyledStat>
         </StyledStats>
@@ -133,7 +133,7 @@ const Treasury: React.FC<TreasuryProps> = ({cur_language}) => {
         <Box row justifyContent="center">
           <Button
             href="https://etherscan.io/address/0x7ba4e109c1dc8B52ed63D8EdF0e951685DDe4DA6"
-            text="View on Etherscan"
+            text="View_on_Etherscan"
             variant="secondary"
             widthProps={274}
             heightProps={52}

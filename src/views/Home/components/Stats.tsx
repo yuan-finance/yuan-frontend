@@ -15,9 +15,10 @@ interface StatsProps {
   curPrice?: number,
   targetPrice?: number,
   totalSupply?: string,
+  scalingFactor?: string,
   cur_language?: any
 }
-const Stats: React.FC<StatsProps> = ({ circSupply, curPrice, targetPrice, totalSupply, cur_language }) => {
+const Stats: React.FC<StatsProps> = ({ circSupply, curPrice, targetPrice, totalSupply, scalingFactor, cur_language }) => {
 
   const formattedTotalSupply = useMemo(() => {
     if (totalSupply) {
@@ -54,6 +55,13 @@ const Stats: React.FC<StatsProps> = ({ circSupply, curPrice, targetPrice, totalS
         <Label cur_language={cur_language} text={'Total_Supply'} />
       </StyledStat>
 
+      <StyledSpacer />
+
+      <StyledStat>
+        <StyledValue>{scalingFactor ? `${scalingFactor}` : '--'}</StyledValue>
+        <Label cur_language={cur_language} text={'Scaling_Factor'} />
+      </StyledStat>
+
     </StyledStats>
   )
 }
@@ -68,7 +76,7 @@ const StyledStats = styled.div`
 const StyledStat = styled.div`
   display: flex;
   flex-direction: column;  
-  margin-bottom:40px;
+  margin-bottom:-10px;
   &:last-child{
     margin-bottom:0
   }

@@ -208,6 +208,11 @@ export const getTargetPrice = async (yam) => {
   return yam.toBigN(1).toFixed(2);
 }
 
+export const getScalingFactor = async (yam, pool, account) => {
+  const scalingFactor = new BigNumber(await yam.contracts.yam.methods.yuansScalingFactor().call())
+  return scalingFactor.dividedBy(new BigNumber(10).pow(18)).toFixed(2)
+}
+
 export const getCirculatingSupply = async (yam) => {
   console.log("yam")
   let now = await yam.web3.eth.getBlock('latest');
@@ -281,11 +286,13 @@ export const getStats = async (yam) => {
   const nextRebase = await getNextRebaseTimestamp(yam)
   const targetPrice = await getTargetPrice(yam)
   const totalSupply = await getTotalSupply(yam)
+  const scalingFactor =await getScalingFactor(yam)
   return {
     circSupply,
     curPrice,
     nextRebase,
     targetPrice,
-    totalSupply
+    totalSupply,
+    scalingFactor
   }
 }
