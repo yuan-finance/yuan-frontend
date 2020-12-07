@@ -76,7 +76,7 @@ const zh_CN = {
     State: '状态',
     Action: '行动',
 
-    View_Etherscan: "在Etherscan上查看Yuan",
+    View_Etherscan: "在Etherscan上查看",
     Buy_Uniswap: "在Uniswap上兑换Yuan"
 }
 export default zh_CN;
