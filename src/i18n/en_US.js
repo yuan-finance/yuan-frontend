@@ -74,6 +74,9 @@ const en_US = {
     OnchainProposals: 'On-chain Proposals',
     Description: 'Description',
     State: 'State',
-    Action: 'Action'
+    Action: 'Action',
+
+    View_Etherscan: "View on Etherscan",
+    Buy_Uniswap: "Buy yuan now on Uniswap"
 }
 export default en_US;

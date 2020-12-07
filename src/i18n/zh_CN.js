@@ -74,6 +74,9 @@ const zh_CN = {
     OnchainProposals: '链上提案',
     Description: '描述',
     State: '状态',
-    Action: '行动'
+    Action: '行动',
+
+    View_Etherscan: "在Etherscan上查看Yuan",
+    Buy_Uniswap: "在Uniswap上兑换Yuan"
 }
 export default zh_CN;
