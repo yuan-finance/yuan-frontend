@@ -23,7 +23,7 @@ interface HomeProps {
 
 const Home: React.FC<HomeProps> = ({ setLanguage, cur_language }) => {
   const yam = useYam()
-  const [{ circSupply, curPrice, nextRebase, nextRebable, targetPrice, totalSupply }, setStats] = useState<OverviewData>({})
+  const [{ circSupply, curPrice, nextRebase, nextRebable, targetPrice, totalSupply, scalingFactor}, setStats] = useState<OverviewData>({})
   const fetchStats = useCallback(async () => {
     const statsData = await getStats(yam)
     setStats(statsData)
@@ -54,6 +54,7 @@ const Home: React.FC<HomeProps> = ({ setLanguage, cur_language }) => {
             curPrice={curPrice}
             targetPrice={targetPrice}
             totalSupply={totalSupply}
+            scalingFactor={scalingFactor}
           />
         </StyledOverview>
       </HomeWrap>
