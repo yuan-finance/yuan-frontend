@@ -413,6 +413,7 @@ export const getProposals = async (yam) => {
     for (let j = 0; j < v3Proposals[i]["returnValues"]["calldatas"].length; j++) {
       console.log('parse ', v3Proposals[i]["returnValues"]["signatures"][j])
       let abi_types = v3Proposals[i]["returnValues"]["signatures"][j].split("(")[1].split(")").slice(0,-1)[0].split(",");
+      if(v3Proposals[i]["returnValues"]["calldatas"][j] === '0x') continue
       let result = yam.web3.eth.abi.decodeParameters(abi_types, v3Proposals[i]["returnValues"]["calldatas"][j]);
       let fr = []
       for (let k = 0; k < result.__length__; k++) {
