@@ -80,6 +80,6 @@ const en_US = {
     Action: 'Action',
 
     View_Etherscan: "View on Etherscan",
-    Buy_Uniswap: "Buy yuan now on Uniswap"
+    Buy_Uniswap: "Buy yuan now"
 }
 export default en_US;
