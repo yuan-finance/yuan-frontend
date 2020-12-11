@@ -423,7 +423,7 @@ export const getProposals = async (yam) => {
     }
 
     console.log('gov',yam.contracts)
-    let proposal = await yam.contracts.gov.methods.proposals(id).call();
+    let proposal = await yam.contracts.gov003.methods.proposals(id).call();
     let fv = new BigNumber(proposal["forVotes"]).div(BASE24);
     let av = new BigNumber(proposal["againstVotes"]).div(BASE24);
 
@@ -435,7 +435,7 @@ export const getProposals = async (yam) => {
     proposals.push({
       gov: "gov",
       description: v3Proposals[i]["returnValues"]["description"],
-      state: stateMap[await yam.contracts.gov.methods.state(id).call()],
+      state: stateMap[await yam.contracts.gov003.methods.state(id).call()],
       targets: targets,
       signatures: sigs,
       inputs: ins,
