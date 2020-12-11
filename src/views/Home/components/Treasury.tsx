@@ -133,7 +133,17 @@ const Treasury: React.FC<TreasuryProps> = ({cur_language}) => {
         <Box row justifyContent="center">
           <Button
             href="https://etherscan.io/address/0x7ba4e109c1dc8B52ed63D8EdF0e951685DDe4DA6"
-            text="View_on_Etherscan"
+            text="View_Etherscan"
+            cur_language={cur_language}
+            variant="secondary"
+            widthProps={274}
+            heightProps={52}
+            imageBg={'Rebase'}
+          />
+          <Button
+            href="https://app.uniswap.org/#/swap?inputCurrency=0x4a3e164684812dfb684ac36457e7fa805087c68e"
+            text="Buy_Uniswap" 
+            cur_language={cur_language}
             variant="secondary"
             widthProps={274}
             heightProps={52}
