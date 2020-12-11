@@ -31,7 +31,7 @@ const zh_CN = {
     CNY_USD:"CNY / USD",
     View_on_Etherscan:"View on Etherscan",
     Current_Price: '当前价格',
-    Target_Price: '目标价格',
+    Target_Price: '平均价格',
     Total_Supply: '总供应量',
     Scaling_Factor: '乘数因子',
     Next_Rebase: '下次分配',

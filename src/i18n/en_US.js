@@ -31,7 +31,7 @@ const en_US = {
     CNY_USD:"CNY / USD",
     View_on_Etherscan:"View on Etherscan",
     Current_Price: 'Current Price',
-    Target_Price: 'Target Price',
+    Target_Price: 'Uniswap TWAP',
     Total_Supply: 'Total Supply',
     Scaling_Factor: 'Scaling Factor',
     Next_Rebase: 'Next Rebase',
