@@ -141,7 +141,7 @@ const Treasury: React.FC<TreasuryProps> = ({cur_language}) => {
             imageBg={'Rebase'}
           />
           <Button
-            href="https://app.uniswap.org/#/swap?inputCurrency=0x4a3e164684812dfb684ac36457e7fa805087c68e"
+            href="https://app.uniswap.org/#/swap?inputCurrency=0xeb269732ab75a6fd61ea60b06fe994cd32a83549&outputCurrency=0x4a3e164684812dfb684ac36457e7fa805087c68e"
             text="Buy_Uniswap" 
             cur_language={cur_language}
             variant="secondary"

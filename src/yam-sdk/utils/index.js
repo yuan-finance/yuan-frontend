@@ -285,7 +285,7 @@ export const didDelegate = async (yam, account) => {
 }
 
 export const vote = async (yam, proposal, side, account, onDismiss, onTxHash) => {
-  return yam.contracts.gov
+  return yam.contracts.gov003
     .methods
     .castVote(proposal, side).send(
       {from: account },
@@ -433,7 +433,7 @@ export const getProposals = async (yam) => {
     }
 
     proposals.push({
-      gov: "gov",
+      gov: "gov003",
       description: v3Proposals[i]["returnValues"]["description"],
       state: stateMap[await yam.contracts.gov003.methods.state(id).call()],
       targets: targets,
@@ -474,7 +474,7 @@ export const getVotingPowers = async (yam, proposals, account) => {
       })
     } else {
       let receipt = await
-          yam.contracts.gov.methods.getReceipt(proposals[i].id, account).call();
+          yam.contracts.gov003.methods.getReceipt(proposals[i].id, account).call();
       let power = new BigNumber(receipt[2]).div(BASE24).toNumber();
       if (power == 0) {
         power =  new BigNumber(await

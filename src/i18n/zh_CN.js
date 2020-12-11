@@ -80,6 +80,6 @@ const zh_CN = {
     Action: '行动',
 
     View_Etherscan: "在Etherscan上查看",
-    Buy_Uniswap: "在Uniswap上兑换Yuan"
+    Buy_Uniswap: "交易Yuan"
 }
 export default zh_CN;
