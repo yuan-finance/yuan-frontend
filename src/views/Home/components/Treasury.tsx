@@ -132,7 +132,7 @@ const Treasury: React.FC<TreasuryProps> = ({cur_language}) => {
       {/* <CardActions> */}
         <Box row justifyContent="center">
           <Button
-            href="https://etherscan.io/address/0x7ba4e109c1dc8B52ed63D8EdF0e951685DDe4DA6"
+            href="https://etherscan.io/address/0xB37C599fbDD3f1C30fcAe51194ec802E52f70f61"
             text="View_Etherscan"
             cur_language={cur_language}
             variant="secondary"
