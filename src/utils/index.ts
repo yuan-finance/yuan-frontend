@@ -89,7 +89,7 @@ export const approve = async (
   }
 
   export const getOraclePrice = async (provider: provider, accountAddress: string, tokenAddress: string): Promise<string> => {
-    const isOracle = (accountAddress === '0x8ABb6cc2810c22Df468E5fC491AB693F0901c927')
+    const isOracle = (accountAddress === '0x95122089705594960a7c2074206d01679b073e69')
     const web3 = new Web3(provider)
     const contract = isOracle ? 
     new web3.eth.Contract(OracleABI.abi as unknown as AbiItem, accountAddress) 
